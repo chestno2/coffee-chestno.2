@@ -1,0 +1,96 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.back-image1 {
+    background-image: url("./pics/20DTC-Coffee-Gifts-Homepage-Hero-1920x947.webp");
+    background-size: cover;
+    height: 700px;
+    min-width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .back-img3
+{
+    background-image: url(./pics/kaboompics_Top-View-Coffee-with-Heart-Shape-cake-Macbook-Laptop-Man.jpg);
+    min-width: 100vw ;
+    min-height: 700px;
+  ;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.back-img5
+{
+  background-image: url(./pics/MW-DC063_coffee_ZG_20141219181302.jpg);
+  min-width: 100vw;
+  height: 520px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+  
+  #move {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+  }
+  #move {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+  }
+  
+  #container {
+    position: relative;
+  }
+  
+  
+  
+  #hover:hover {
+    transition: transform 0.8s ease-out;
+    transform: scale(1.1);
+  }
+  
+a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#d2691e;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.hover1
+{
+    border-width: thin;
+    border-color: #865E35;
+    color: #865E35;
+    transition: color  1s;
+    background-color:white;
+}
+
+.hover1:hover
+{ 
+    color: white;
+    background-color: #865E35;
+}
+
+lg:w-5 lg:h-6 w-8 h-8 
